@@ -13,3 +13,38 @@ body {
 	padding: 30px;
 	margin: 0 auto;
 }
+
+.item {
+	position: relative;
+	background-color: #fff;
+	color: #1c1a1a;
+	font-weight: 700;
+	font-size: 24px;
+	padding: 30px 70px;
+	margin-bottom: 20px;
+	list-style: none;
+}
+.item:nth-child(even) {
+	color: #fff;
+	background-color: #440f51;
+}
+.item:nth-child(odd)::after {
+	content: '';
+	position: absolute;
+	display: block;
+	background-image: url(../img/open-purple.svg);
+	width: 46px;
+	height: 46px;
+	right: 40px;
+	bottom: 20px;
+}
+.item:nth-child(even)::after {
+	content: '';
+	position: absolute;
+	display: block;
+	background-image: url(../img/open.svg);
+	width: 46px;
+	height: 46px;
+	right: 40px;
+	bottom: 20px;
+}
