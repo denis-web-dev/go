@@ -1,0 +1,33 @@
+.item {
+	position: relative;
+	background-color: #fff;
+	color: #1c1a1a;
+	font-weight: 700;
+	font-size: 24px;
+	padding: 30px 70px;
+	list-style: none;
+}
+.item:nth-child(even) {
+	color: #fff;
+	background-color: #440f51;
+}
+.item:not(:last-child) {
+	margin-bottom: 20px;
+}
+
+.item::after {
+	content: '';
+	position: absolute;
+	display: block;
+	right: 40px;
+	width: 40px;
+	height: 40px;
+	bottom: 20px;
+	background-size: contain;
+}
+.item:nth-of-type(even)::after {
+	background-image: url(../img/open.svg);
+}
+.item:nth-of-type(odd)::after {
+	background-image: url(../img/open-purple.svg);
+}
