@@ -131,6 +131,7 @@ svg {
 	font-weight: 700;
 	margin-bottom: 38px;
 }
+
 .footer__address::before {
 	content: '';
 	background-image: url(../img/icons/location.svg);
