@@ -1,6 +1,5 @@
 .hall {
 	text-align: center;
-	margin-bottom: 100px;
 }
 
 .hall__item-1,
@@ -32,5 +31,6 @@
 }
 
 .hall__item-4 {
+	margin-bottom: 0;
 	background-image: url(../img/hall-neon.jpg);
 }
