@@ -22,9 +22,9 @@ section:last-child {
 }
 
 .container {
-	max-width: 1280px;
+	max-width: 1250px;
 	margin: 0 auto;
-	padding: 0 60px;
+	padding: 0 30px;
 }
 
 .title {
