@@ -1,4 +1,5 @@
 @import url(./style.css);
+@import url(./normalize.css);
 @import url(./fonts.css);
 @import url(./hall.css);
 @import url(./about.css);

@@ -1,4 +1,4 @@
-.item {
+.faq__item {
 	position: relative;
 	background-color: #fff;
 	color: #1c1a1a;
@@ -7,15 +7,15 @@
 	padding: 30px 70px;
 	list-style: none;
 }
-.item:nth-child(even) {
+.faq__item:nth-child(even) {
 	color: #fff;
 	background-color: #440f51;
 }
-.item:not(:last-child) {
+.faq__item:not(:last-child) {
 	margin-bottom: 20px;
 }
 
-.item::after {
+.faq__item::after {
 	content: '';
 	position: absolute;
 	display: block;
@@ -25,9 +25,9 @@
 	bottom: 20px;
 	background-size: contain;
 }
-.item:nth-of-type(even)::after {
+.faq__item:nth-of-type(even)::after {
 	background-image: url(../img/open.svg);
 }
-.item:nth-of-type(odd)::after {
+.faq__item:nth-of-type(odd)::after {
 	background-image: url(../img/open-purple.svg);
 }
