@@ -1,0 +1,22 @@
+fieldset {
+	border: 1px solid #fff;
+}
+.fieldset__input {
+	margin-right: 5px;
+}
+
+.label {
+	margin-right: 20px;
+}
+
+.form__button {
+	padding: 5px 5px;
+	border: 1px solid #000;
+	color: #000;
+	transition: 0.3s;
+}
+.form__button:hover {
+	background-color: transparent;
+	border: 1px solid #fff;
+	color: #fff;
+}
