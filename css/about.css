@@ -1,7 +1,15 @@
+.about__wrapper {
+	display: flex;
+}
+.about__right-cl {
+	margin-left: 80px;
+}
 .about__paragraph {
+	display: flex;
+	flex-direction: column;
 	font-size: 20px;
 	font-weight: 400;
-	margin-bottom: 70px;
+	margin-bottom: 48px;
 }
 .about__paragraph-text {
 	margin-bottom: 20px;
@@ -15,7 +23,7 @@
 	text-align: left;
 	font-size: 44px;
 	font-weight: 400;
-	padding-left: 55px;
+	padding-left: 32px;
 	text-transform: uppercase;
 }
 .about__quote-text {
@@ -41,8 +49,8 @@
 	background-repeat: no-repeat;
 	transform: rotate(180deg);
 	display: inline-block;
-	top: 42px;
-	right: 100px;
+	top: 144px;
+	right: 116px;
 	width: 38px;
 	height: 34px;
 }
