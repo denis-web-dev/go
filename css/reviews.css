@@ -1,0 +1,24 @@
+.reviews__block {
+	display: flex;
+}
+.reviews__block:not(:last-child) {
+	margin-bottom: 50px;
+}
+
+.reviews__block-img {
+	text-align: center;
+	margin-right: 20px;
+}
+
+.reviews__img {
+	width: 280px;
+	height: 280px;
+
+	margin-bottom: 11px;
+}
+
+.reviews__text {
+	width: 680px;
+	margin-top: 52px;
+	line-height: 28px;
+}

@@ -2,20 +2,26 @@
 	text-align: center;
 }
 
+.hall__list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px 20px;
+}
+
 .hall__item-1,
 .hall__item-2,
 .hall__item-3,
 .hall__item-4 {
 	position: relative;
 	display: block;
-	width: 1180px;
-	height: 710px;
-	padding-top: 25%;
+	width: 580px;
+	height: 349px;
+	padding-top: 8%;
 	text-align: center;
 	text-transform: uppercase;
 	font-size: 70px;
 	font-weight: 700;
-	margin-bottom: 60px;
+	background-repeat: no-repeat;
 }
 
 .hall__item-1 {

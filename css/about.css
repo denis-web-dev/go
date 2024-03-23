@@ -1,11 +1,13 @@
 .about__wrapper {
 	display: flex;
 }
+.about__img {
+	margin-right: 80px;
+}
 .about__right-cl {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	margin-left: 80px;
 }
 .about__paragraph {
 	font-size: 20px;
@@ -27,7 +29,7 @@
 	text-transform: uppercase;
 }
 .about__quote-text {
-	padding-bottom: 40px;
+	margin-bottom: 40px;
 	text-transform: uppercase;
 }
 
