@@ -1,0 +1,50 @@
+.we-have__title {
+	max-width: 880px;
+	font-size: 40px;
+	line-height: 50px;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+.we-have__cart--list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 40px 20px;
+}
+.we-have__cart--item-1,
+.we-have__cart--item-2,
+.we-have__cart--item-3,
+.we-have__cart--item-4,
+.we-have__cart--item-5,
+.we-have__cart--item-6 {
+	position: relative;
+	display: block;
+	width: 380px;
+	height: 228px;
+	padding-top: 14%;
+	padding-left: 40px;
+	font-size: 20px;
+	line-height: 28px;
+	text-align: left;
+	background-repeat: no-repeat;
+}
+
+.we-have__cart--item-1 {
+	background-image: url(../img/vr.jpg);
+}
+.we-have__cart--item-2 {
+	background-image: url(../img/audio.jpg);
+}
+.we-have__cart--item-3 {
+	background-image: url(../img/micro.jpg);
+}
+.we-have__cart--item-4 {
+	background-image: url(../img/game.jpg);
+}
+.we-have__cart--item-5 {
+	background-image: url(../img/netflix.jpg);
+}
+.we-have__cart--item-6 {
+	background-image: url(../img/sony.jpg);
+}

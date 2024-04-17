@@ -1,8 +1,12 @@
 @import url(./style.css);
 @import url(./normalize.css);
 @import url(./fonts.css);
+@import url(./header.css);
+@import url(./vr-block.css);
+@import url(./we-have.css);
 @import url(./hall.css);
 @import url(./books.css);
 @import url(./about.css);
 @import url(./reviews.css);
 @import url(./faq.css);
+@import url(./footer.css);

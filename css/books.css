@@ -1,6 +1,70 @@
-fieldset {
-	border: 1px solid #fff;
+.books {
+	background-color: #440f51;
 }
+.books__title {
+	padding-top: 30px;
+}
+.subtitle {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 28px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.sub-title {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 28px;
+	text-align: center;
+	margin-bottom: 23px;
+}
+.books__set {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 60px;
+}
+.books__hall--list {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 60px;
+}
+
+.books__hall--link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 250px;
+	height: 55px;
+	background: #ffffff;
+	border-radius: 8px;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 40px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+.books__console {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.books__table {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.other {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
 .books__input {
 	margin-right: 5px;
 }
@@ -19,4 +83,57 @@ fieldset {
 	background-color: transparent;
 	border: 1px solid #fff;
 	color: #fff;
+}
+
+.data {
+}
+.data__label--time,
+.data__label--data {
+	width: 134px;
+	height: 52px;
+	padding-bottom: 10px;
+	color: #000;
+	background: #ffffff;
+	margin-right: 0;
+}
+
+.data-block {
+	display: flex;
+}
+.data-block-1 {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	gap: 36px 32px;
+}
+.data-block-2 {
+	display: flex;
+	flex-direction: column;
+}
+.data-block-3 {
+	display: flex;
+	flex-direction: column;
+}
+.data__label {
+	width: 300px;
+	height: 52px;
+	color: #000;
+	background: #ffffff;
+	margin-bottom: 14px;
+}
+.books__button {
+	width: 300px;
+	height: 60px;
+
+	background: #ffffff;
+
+	border-radius: 10px;
+
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 28px;
+	text-align: center;
+	text-transform: uppercase;
+
+	color: #6c0286;
 }
