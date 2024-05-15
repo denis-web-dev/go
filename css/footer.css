@@ -66,15 +66,15 @@ footer {
 }
 
 .footer__social-link:hover {
-	color: #cd06ff;
-}
-
-.footer__social-link:focus {
-	outline-color: #cd06ff;
+	color: #eadeed;
 }
 
 .footer__social-link:active {
-	color: #840aa3;
+	color: #cd06ff;
+}
+.footer__social-link:focus {
+	outline-color: #eadeed;
+	border: #eadeed;
 }
 
 .footer__autor {

@@ -82,8 +82,14 @@
 	padding: 25px 69px;
 	transition: all 0.3s;
 }
-.vr-block__btn:hover {
-	box-shadow: 0 0 20px #6c0287;
+.vr-block__btn:hover,
+:focus {
+	background: #840aa3;
+	border: none;
+}
+.vr-block__btn:active {
+	background: #640aa3;
+	border: none;
 }
 
 .arrow-slider {
@@ -97,4 +103,23 @@
 	border-radius: 50%;
 	margin: 0 auto;
 	z-index: 1;
+}
+
+.arrow-slider__btn {
+	fill: #fff;
+	transition: fill 0.3s;
+}
+
+.arrow-slider__btn:hover {
+	fill: #6c0287;
+}
+.arrow-slider__btn:active {
+	fill: #fff;
+}
+.arrow-slider:hover {
+	background-color: #ffffff;
+}
+
+.arrow-slider:active {
+	background-color: #cd06ff;
 }

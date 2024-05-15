@@ -41,6 +41,12 @@
 	padding: 9px 29px;
 	transition: all 0.3s;
 }
-.nav__header--btn:hover {
-	border: 3px solid #fff;
+.nav__header--btn:hover,
+:focus {
+	background-color: #6c0287;
+	border: 3px solid #6c0287;
+}
+.nav__header--btn:active {
+	background-color: #640aa3;
+	border: 1px solid #000;
 }

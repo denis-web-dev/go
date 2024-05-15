@@ -73,9 +73,9 @@
               <svg class="arrow-slider__btn" width="29" height="30" viewBox="0 0 29 30" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <rect x="0.425476" y="14.9162" width="1.82001" height="20.0201"
-                  transform="rotate(-44.9975 0.425476 14.9162)" fill="white" />
+                  transform="rotate(-44.9975 0.425476 14.9162)" />
                 <rect x="14.5807" y="29.0737" width="1.82001" height="20.0201"
-                  transform="rotate(-134.997 14.5807 29.0737)" fill="white" />
+                  transform="rotate(-134.997 14.5807 29.0737)" />
               </svg>
             </a>
           </div>
@@ -203,37 +203,48 @@
             <div class="data-block">
               <div class="data-block-1">
                 <label class="data__label--data label">
-                  <input class="books__input" type="date" name="date" aria-label="Дата" required>
+                  <p class="data__text-data">Дата</p>
+                  <svg class="arrow-form" width="21" height="15" viewBox="0 0 21 15" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.5 15L1.40673 3.75L19.5933 3.75L10.5 15Z" fill="#211E1E" />
+                  </svg>
                 </label>
                 <label class="data__label--time label">
-                  <input class="books__input" type="time" name="time" required>
+                  <p class="data__text-time">Время</p>
+                  <svg class="arrow-form" width="21" height="15" viewBox="0 0 21 15" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.5 15L1.40673 3.75L19.5933 3.75L10.5 15Z" fill="#211E1E" />
+                  </svg>
                 </label>
-                <label class="data__label label">
-                  Сколько человек
-                  <input class="books__input" type="text" name="number" required>
+                <label class="data__label data__label-human">
+                  <p class="data__text-human">Сколько человек</p>
+                  <svg class="arrow-form" width="21" height="15" viewBox="0 0 21 15" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.5 15L1.40673 3.75L19.5933 3.75L10.5 15Z" fill="#211E1E" />
+                  </svg>
                 </label>
               </div>
               <div class="data-block-2">
                 <p>Имя</p>
                 <label class="data__label label">
-                  <input class="books__input" type="text" name="name" required>
+                  <input class="books__input books__name" type="text" name="name" required>
                 </label>
                 <p>Фамилия</p>
                 <label class="data__label label">
-                  <input class="books__input" type="text" name="surname" required>
+                  <input class="books__input books__surname" type="text" name="surname" required>
                 </label>
               </div>
               <div class="data-block-3">
 
                 <p>Телефон</p>
                 <label class="data__label label">
-                  <input class="books__input" type="tel" name="tel" required title="+7___-___-__-__"
+                  <input class="books__input books__tel" type="tel" name="tel" required title="+7___-___-__-__"
                     pattern="^\+?[7-8]-?[0-9]{3}-?[0-9]{3}-?[0-9]{2}-?[0-9]{2}$">
                 </label>
 
                 <p>E-mail</p>
                 <label class="data__label label">
-                  <input class="books__input" type="email" name="email" required>
+                  <input class="books__input books__email" type="email" name="email" required>
                 </label>
                 <button class="books__button">Забронировать</button>
               </div>
@@ -270,7 +281,7 @@
         </div>
       </div>
     </section>
-    <section id="reviews">
+    <section class="review" id="reviews">
       <div class="container">
         <h2 class="reviews__title title">Отзывы посетителей</h2>
         <div class="reviews__block">
@@ -421,6 +432,9 @@
       </div>
     </div>
   </footer>
+  <script>
+    document.addEventListener('click', event => { if (event.target.matches('button')) { event.target.focus() } })
+  </script>
 </body>
 
 </html>

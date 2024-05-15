@@ -37,7 +37,7 @@
 	align-items: center;
 	width: 250px;
 	height: 55px;
-	background: #ffffff;
+	background-color: #fff;
 	border-radius: 8px;
 	font-size: 30px;
 	font-weight: 700;
@@ -45,6 +45,23 @@
 	text-align: center;
 	text-transform: uppercase;
 	color: #000000;
+	transition: all 0.1s;
+}
+.books__hall--link:hover {
+	border: 3px solid #640aa3;
+	border-radius: 8px;
+	background-color: #eadeed;
+}
+.books__hall--link:active {
+	border: 3px solid #fff;
+	border-radius: 8px;
+	color: #fff;
+	background-color: #6c0287;
+}
+.books__hall--link:focus {
+	border: 3px solid #640aa3;
+	border-radius: 8px;
+	background-color: #fff;
 }
 
 .books__console {
@@ -85,13 +102,15 @@
 	color: #fff;
 }
 
-.data {
-}
 .data__label--time,
 .data__label--data {
+	display: flex;
+	justify-content: space-between;
+
+	padding: 20px 12px;
+
 	width: 134px;
 	height: 52px;
-	padding-bottom: 10px;
 	color: #000;
 	background: #ffffff;
 	margin-right: 0;
@@ -106,6 +125,21 @@
 	align-content: center;
 	gap: 36px 32px;
 }
+
+.data__label-human {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	padding: 20px 12px;
+
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 28px;
+}
+
 .data-block-2 {
 	display: flex;
 	flex-direction: column;
@@ -114,13 +148,24 @@
 	display: flex;
 	flex-direction: column;
 }
-.data__label {
+.data__label,
+.books__name,
+.books__surname,
+.books__tel,
+.books__email {
 	width: 300px;
 	height: 52px;
 	color: #000;
 	background: #ffffff;
 	margin-bottom: 14px;
 }
+
+.books__tel:focus,
+.books__email:focus {
+	background-color: #fff;
+	border: 2px solid #cd06ff;
+}
+
 .books__button {
 	width: 300px;
 	height: 60px;
@@ -128,6 +173,7 @@
 	background: #ffffff;
 
 	border-radius: 10px;
+	border: 3px solid #fff;
 
 	font-weight: 700;
 	font-size: 22px;
@@ -136,4 +182,21 @@
 	text-transform: uppercase;
 
 	color: #6c0286;
+	transition: all 0.2s;
+}
+.books__button:hover,
+:focus {
+	color: #6c0286;
+	background-color: #eadeed;
+	border: 3px solid #6c0287;
+}
+.books__button:active {
+	color: #6c0286;
+	background-color: #eadeed;
+	border: 3px solid #eadeed;
+}
+.books__button:focus {
+	color: #6c0286;
+	background-color: #fff;
+	border: 3px solid #6c0287;
 }
