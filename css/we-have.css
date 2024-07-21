@@ -28,6 +28,11 @@
 	line-height: 28px;
 	text-align: left;
 	background-repeat: no-repeat;
+	transition: all 0.2s;
+}
+
+.we-have__cart--list :hover {
+	transform: scale(1.1);
 }
 
 .we-have__cart--item-1 {
