@@ -1,0 +1,19 @@
+:root {
+	/* шрифт текста */
+	--font-family: 'Arial', sans-serif;
+}
+
+.header {
+	/* цвет кнопки */
+	--color-btn_usual-border: #cd06ff;
+	--color-btn_hover: #6c0287;
+	--color-btn_active: #640aa3;
+	--color-btn_focus: #6c0287;
+}
+.vr-block {
+	/* цвет кнопки */
+	--color-btn_usual: #6c0287;
+	--color-btn_hover: #840aa3;
+	--color-btn_active: #640aa3;
+	--color-btn_focus: #840aa3;
+}

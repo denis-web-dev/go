@@ -70,7 +70,7 @@
 .vr-block__btn {
 	width: 374px;
 	height: 80px;
-	background: #6c0286;
+	background: var(--color-btn_usual);
 	border-radius: 10px;
 
 	font-weight: 700;
@@ -84,11 +84,11 @@
 }
 .vr-block__btn:hover,
 :focus {
-	background: #840aa3;
+	background: var(--color-btn_hover);
 	border: none;
 }
 .vr-block__btn:active {
-	background: #640aa3;
+	background: var(--color-btn_active);
 	border: none;
 }
 
