@@ -40,9 +40,10 @@
 	background-image: url(../img/vr.jpg);
 }
 .we-have__cart--item-2 {
-	transform: translateY(70px);
+	translate: 0px 70px;
 	background-image: url(../img/audio.jpg);
 }
+
 .we-have__cart--item-3 {
 	background-image: url(../img/micro.jpg);
 }
@@ -50,7 +51,7 @@
 	background-image: url(../img/game.jpg);
 }
 .we-have__cart--item-5 {
-	transform: translateY(70px);
+	translate: 0px 70px;
 	background-image: url(../img/netflix.jpg);
 }
 .we-have__cart--item-6 {
