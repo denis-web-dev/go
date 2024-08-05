@@ -35,7 +35,6 @@
 .we-have__cart--list :hover {
 	transform: scale(1.1);
 }
-
 .we-have__cart--item-1 {
 	background-image: url(../img/vr.jpg);
 }
