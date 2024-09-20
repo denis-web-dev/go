@@ -17,7 +17,24 @@
   <header class="header">
     <div class="container">
       <nav class="nav__header">
+        <!-- burger menu -->
+        <div class="hamburger-menu">
+          <input id="menu__toggle" type="checkbox" />
+          <label class="menu__btn" for="menu__toggle">
+            <span></span>
+          </label>
+          <ul class="menu__box">
+            <li class="menu__box-item items"><a class="menu__item" href="#">Залы</a></li>
+            <li class="menu__box-item"><a class="menu__item" href="#">О нас</a></li>
+            <li class="menu__box-item"><a class="menu__item" href="#">Бронь</a></li>
+            <li class="menu__box-item"><a class="menu__item" href="#">Отзывы</a></li>
+            <li class="menu__box-item"><a class="menu__item" href="#">Контакты</a></li>
+          </ul>
+        </div>
+        <!--  -->
         <img class="logo" src="./img/icons/logo.png" alt="логотип GO">
+        <img class="logo-2 none" src="./img/logo(1024px).png" alt="логотип GO">
+        <img class="logo-3 none" src="./img/logo(320px).png" alt="логотип GO">
         <ul class="nav__header--list">
           <li class="nav__header--item">
             <a class="nav__header--link" href="#">
@@ -68,6 +85,7 @@
             </div>
           </div>
           <button class="vr-block__btn">Забронировать</button>
+
           <div class="arrow-slider">
             <a class="arrow-slider__link" href="#">
               <svg class="arrow-slider__btn" width="29" height="30" viewBox="0 0 29 30" fill="none"
@@ -77,12 +95,22 @@
                 <rect x="14.5807" y="29.0737" width="1.82001" height="20.0201"
                   transform="rotate(-134.997 14.5807 29.0737)" />
               </svg>
+
+              <svg class="arrow-slider__btn-2 none" width="21" height="21" viewBox="0 0 21 21" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <rect x="0.778564" y="10.3337" width="1.25712" height="13.8283"
+                  transform="rotate(-44.9975 0.778564 10.3337)" fill="white" />
+                <rect x="10.5558" y="20.1128" width="1.25712" height="13.8283"
+                  transform="rotate(-134.997 10.5558 20.1128)" fill="white" />
+              </svg>
+
             </a>
           </div>
+
         </div>
       </div>
     </section>
-    <section class="we-have">
+    <section class="we-have none">
       <div class="container">
         <h2 class="we-have__title title">У нас есть все для классного отдыха с друзьями!</h2>
         <div class="we-have__cart">
@@ -110,7 +138,7 @@
         </div>
       </div>
     </section>
-    <section class="hall" id="halls">
+    <section class="hall none" id="halls">
       <div class="container">
         <h2 class="hall__title title">Наши залы</h2>
         <ul class="hall__list">
@@ -137,7 +165,7 @@
         </ul>
       </div>
     </section>
-    <section class="books" id="book">
+    <section class="books none" id="book">
       <div class="container">
         <h2 class="books__title title">ЗАБРОНИРОВАТЬ ЗАЛ ПРОСТО</h2>
         <p class="books__subtitle subtitle">Выбери зал</p>
@@ -253,7 +281,7 @@
         </form>
       </div>
     </section>
-    <section class="about" id="about">
+    <section class="about none" id="about">
       <div class="container">
         <h2 class="about__title title">О нас</h2>
         <div class="about__wrapper">
@@ -281,7 +309,7 @@
         </div>
       </div>
     </section>
-    <section class="review" id="reviews">
+    <section class="review none" id="reviews">
       <div class="container">
         <h2 class="reviews__title title">Отзывы посетителей</h2>
         <div class="reviews__block">
@@ -319,7 +347,7 @@
         </div>
       </div>
     </section>
-    <section class="faq">
+    <section class="faq none">
       <div class="container">
         <h2 class="faq__title title">Частые вопросы</h2>
         <ul class="faq__list">
@@ -332,7 +360,7 @@
       </div>
     </section>
   </main>
-  <footer class="footer" id="contacts">
+  <footer class="footer none" id="contacts">
     <div class="container">
       <h2 class="footer__title title">Контакты</h2>
       <div class="footer__block">
@@ -427,7 +455,9 @@
         <p class="footer__autor-text">© Game Over, 2022</p>
         <div class="footer__autor-block">
           <p class="footer__autor-text">Design by Anastasia Ilina</p>
-          <p class="footer__autor-text">ilina9825@gmail.com</p>
+          <p class="footer__autor-text autor-design">ilina9825@gmail.com</p>
+          <p class="footer__autor-text">Developer by Denis Kotelnikov</p>
+          <p class="footer__autor-text">denis-front-web@mail.ru</p>
         </div>
       </div>
     </div>

@@ -1,6 +1,13 @@
 :root {
 	/* шрифт текста */
 	--font-family: 'Arial', sans-serif;
+	/* фокус TAB */
+	--color-focus-tab: #cd06ff;
+	/* burger menu */
+	--timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+	--nav-width-desktop: 40em;
+	--nav-width-mobile: 25em;
+	--nav-item-nb: 6;
 }
 
 .header {

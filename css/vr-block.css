@@ -68,8 +68,6 @@
 }
 
 .vr-block__btn {
-	width: 374px;
-	height: 80px;
 	background: var(--color-btn_usual);
 	border-radius: 10px;
 
@@ -81,6 +79,10 @@
 
 	padding: 25px 69px;
 	transition: all 0.3s;
+
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(108, 2, 135, 0.2);
+	-moz-box-shadow: 0px 0px 10px 0px rgba(108, 2, 135, 0.2);
+	box-shadow: 0px 0px 10px 0px rgba(108, 2, 135, 1);
 }
 .vr-block__btn:hover,
 :focus {
@@ -122,4 +124,217 @@
 
 .arrow-slider:active {
 	background-color: #cd06ff;
+}
+
+/* Адаптив 1024px */
+@media (max-width: 1024px) {
+	.vr-block__title {
+		position: relative;
+		font-weight: 900;
+		font-size: 120px;
+		line-height: 1;
+		letter-spacing: -0.1em;
+		text-align: left;
+		margin-bottom: 20px;
+	}
+	.vr-block__subtitle {
+		font-size: 22px;
+		font-weight: 400;
+		padding-left: 100px;
+		margin-bottom: 50px;
+	}
+	.vr-block__container {
+		min-height: 583px;
+		max-width: 904px;
+		position: relative;
+	}
+	.vr-block__container::after {
+		content: '';
+		position: absolute;
+		right: 0;
+		top: 60px;
+		background-image: url(../img/men\(1024\).png);
+		background-repeat: no-repeat;
+		width: 453px;
+		height: 520px;
+	}
+	.vr-block__free {
+		font-weight: 900;
+		font-size: 80px;
+		line-height: 113px;
+		text-align: left;
+	}
+	.vr-block__descr {
+		display: flex;
+		text-align: center;
+		gap: 40px;
+		margin-bottom: 80px;
+	}
+	.vr-block__free-text {
+		max-width: 168px;
+	}
+	.vr-block__text {
+		font-weight: 400;
+		font-size: 26px;
+		line-height: 30px;
+		text-align: center;
+	}
+	.vr-block__new-text {
+		max-width: 140px;
+	}
+	.vr-block__new {
+		font-weight: 900;
+		font-size: 60px;
+		line-height: 85px;
+		text-align: left;
+	}
+	.vr-block__btn {
+		padding: 17px 48px;
+		font-size: 22px;
+		margin-left: 40px;
+	}
+	.arrow-slider {
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 67px;
+		height: 67px;
+		border: 1px solid #fff;
+		border-radius: 50%;
+		margin: -60px auto;
+		z-index: 1;
+	}
+	.arrow-slider__btn {
+		display: none;
+	}
+	.arrow-slider__btn-2 {
+		display: block;
+	}
+}
+
+@media (max-width: 768px) {
+	.vr-block__title {
+		font-weight: 900;
+		font-size: 86px;
+		line-height: 1;
+		letter-spacing: -0.1em;
+		text-align: left;
+	}
+	section:first-child {
+		padding-top: 30px;
+	}
+	.vr-block__subtitle {
+		font-size: 18px;
+
+		padding-left: 67px;
+	}
+	.vr-block__container {
+		min-height: 537px;
+		max-width: 688px;
+		position: relative;
+	}
+	.vr-block__descr {
+		gap: 30px;
+	}
+	.vr-block__free-text {
+		width: 103px;
+	}
+	.vr-block__free {
+		font-size: 50px;
+		line-height: 71px;
+	}
+	.vr-block__text {
+		font-size: 16px;
+		line-height: 18px;
+	}
+	.vr-block__new-text {
+		max-width: 89px;
+	}
+	.vr-block__new {
+		font-size: 40px;
+		line-height: 56px;
+	}
+	.vr-block__container::after {
+		content: '';
+		position: absolute;
+		background-image: url(../img/men\(768\).png);
+		background-repeat: no-repeat;
+		width: 409px;
+		height: 479px;
+	}
+	.vr-block__btn {
+		padding: 11px 35px;
+		font-size: 16px;
+		margin-left: 0;
+	}
+	.vr-block__descr {
+		margin-bottom: 100px;
+	}
+	.arrow-slider {
+		display: none;
+	}
+}
+
+@media (max-width: 320px) {
+	section:first-child {
+		padding-top: 20px;
+	}
+	.vr-block__title {
+		font-size: 35px;
+		line-height: 1;
+		letter-spacing: -0.08em;
+		margin-bottom: 6px;
+	}
+	.vr-block__subtitle {
+		font-weight: 400;
+		font-size: 10px;
+		line-height: 14px;
+		margin-bottom: 16px;
+		padding-left: 19px;
+	}
+	.vr-block__free-text {
+		max-width: 65px;
+	}
+	.vr-block__free {
+		font-size: 26px;
+		line-height: 37px;
+	}
+	.vr-block__text {
+		font-size: 10px;
+		line-height: 11px;
+	}
+	.vr-block__new-text {
+		max-width: 54px;
+	}
+	.vr-block__new {
+		font-size: 22px;
+		line-height: 31px;
+	}
+	.vr-block__descr {
+		gap: 23px;
+	}
+	.vr-block__container::after {
+		content: '';
+		top: 26px;
+		right: -19px;
+		position: absolute;
+		background-image: url(../img/men\(320\).png);
+		background-repeat: no-repeat;
+		width: 161px;
+		height: 179px;
+	}
+	.vr-block__btn {
+		width: 117px;
+		height: 27px;
+		padding: 7px 13px;
+
+		font-weight: 700;
+		font-size: 10px;
+		line-height: 12px;
+		text-align: left;
+	}
+	.vr-block__descr {
+		margin-bottom: 30px;
+	}
 }
