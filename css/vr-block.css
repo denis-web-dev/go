@@ -214,6 +214,9 @@
 }
 
 @media (max-width: 768px) {
+	.hamburger-menu {
+		display: block;
+	}
 	.vr-block__title {
 		font-weight: 900;
 		font-size: 86px;
