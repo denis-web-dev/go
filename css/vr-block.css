@@ -276,6 +276,74 @@
 	}
 }
 
+@media (max-width: 480px) {
+	section:first-child {
+		padding-top: 20px;
+	}
+	.vr-block__title {
+		font-size: 50px;
+		line-height: 1;
+		letter-spacing: -0.08em;
+		margin-bottom: 6px;
+	}
+	.vr-block__subtitle {
+		font-weight: 400;
+		font-size: 10px;
+		line-height: 14px;
+		margin-bottom: 16px;
+		padding-left: 19px;
+	}
+	.vr-block__free-text {
+		max-width: 65px;
+	}
+	.vr-block__free {
+		font-size: 26px;
+		line-height: 37px;
+	}
+	.vr-block__text {
+		font-size: 10px;
+		line-height: 11px;
+	}
+	.vr-block__new-text {
+		max-width: 54px;
+	}
+	.vr-block__new {
+		font-size: 22px;
+		line-height: 31px;
+	}
+	.vr-block__descr {
+		gap: 23px;
+	}
+	.vr-block__container {
+		max-width: 385px;
+		min-height: 204px;
+	}
+	.vr-block__container::after {
+		content: '';
+		top: 26px;
+		right: 0;
+		position: absolute;
+		background-image: url(../img/men\(320\).png);
+		background-repeat: no-repeat;
+		width: 161px;
+		height: 179px;
+	}
+	.vr-block__btn {
+		width: 117px;
+		height: 27px;
+		padding: 7px 13px;
+		border-radius: 4px;
+
+		font-weight: 700;
+		font-size: 10px;
+		line-height: 12px;
+		text-align: left;
+	}
+	.vr-block__descr {
+		margin-bottom: 30px;
+	}
+}
+
 @media (max-width: 320px) {
 	section:first-child {
 		padding-top: 20px;
@@ -314,6 +382,10 @@
 	.vr-block__descr {
 		gap: 23px;
 	}
+	.vr-block__container {
+		max-width: 280px;
+		min-height: 204px;
+	}
 	.vr-block__container::after {
 		content: '';
 		top: 26px;
@@ -328,6 +400,7 @@
 		width: 117px;
 		height: 27px;
 		padding: 7px 13px;
+		border-radius: 4px;
 
 		font-weight: 700;
 		font-size: 10px;
