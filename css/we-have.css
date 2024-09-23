@@ -64,11 +64,13 @@
 	.we-have {
 		padding-bottom: 90px;
 	}
+	.we-have__title {
+		max-width: 529px;
+	}
 	.title {
 		font-size: 30px;
 		line-height: 40px;
 		text-align: center;
-		max-width: 529px;
 		margin-bottom: 36px;
 	}
 
@@ -149,46 +151,31 @@
 	.we-have__cart--item-6 {
 		position: relative;
 		display: block;
+		max-width: 334px;
+		height: 200px;
 		padding-top: 15%;
 		padding-left: 30px;
 		font-size: 20px;
 		line-height: 28px;
 		text-align: left;
 		background-repeat: no-repeat;
+		background-size: contain;
 		transition: all 0.2s;
-	}
-
-	.we-have__cart--item-1 {
-		background-image: url(../img/we-have__cart768/vr.jpg);
-		background-size: contain;
-	}
-	.we-have__cart--item-2 {
 		translate: 0px 0px;
-		background-image: url(../img/we-have__cart768/audio.jpg);
-		background-size: contain;
-	}
-
-	.we-have__cart--item-3 {
-		background-image: url(../img/we-have__cart768/karaoke.jpg);
-		background-size: contain;
-	}
-	.we-have__cart--item-4 {
-		background-image: url(../img/we-have__cart768/game.jpg);
-		background-size: contain;
-	}
-	.we-have__cart--item-5 {
-		translate: 0px 0px;
-		background-image: url(../img/we-have__cart768/natflix.jpg);
-		background-size: contain;
-	}
-	.we-have__cart--item-6 {
-		background-image: url(../img/we-have__cart768/sony.jpg);
-		background-size: contain;
 	}
 }
 @media (max-width: 480px) {
 	.we-have {
+		display: flex;
+		justify-content: center;
 		padding-bottom: 30px;
+	}
+	.we-have__wrapper {
+		width: 440px;
+	}
+	.we-have__title {
+		max-width: 529px;
+		max-width: 280px;
 	}
 	.title {
 		font-size: 14px;
@@ -211,48 +198,24 @@
 	.we-have__cart--item-6 {
 		position: relative;
 		display: block;
-		padding-top: 19%;
-		padding-left: 10px;
-		font-size: 10px;
-		line-height: 14px;
+		max-width: 200px;
+		height: 110px;
+		padding-top: 10%;
+		padding-left: 14px;
 		text-align: left;
 		background-repeat: no-repeat;
 		transition: all 0.2s;
 	}
-
-	.we-have__cart--item-1 {
-		background-image: url(../img/we-have__cart320/vr.jpg);
-		background-size: contain;
-	}
-	.we-have__cart--item-2 {
-		translate: 0px 0px;
-		background-image: url(../img/we-have__cart320/audio.jpg);
-		background-size: contain;
-	}
-
-	.we-have__cart--item-3 {
-		background-image: url(../img/we-have__cart320/karaoke.jpg);
-		background-size: contain;
-	}
-	.we-have__cart--item-4 {
-		background-image: url(../img/we-have__cart320/game.jpg);
-		background-size: contain;
-	}
-	.we-have__cart--item-5 {
-		translate: 0px 0px;
-		background-image: url(../img/we-have__cart320/netflix.jpg);
-		background-size: contain;
-	}
-	.we-have__cart--item-6 {
-		background-image: url(../img/we-have__cart320/netflix.jpg);
-		background-size: contain;
+	.we-have__cart--link {
+		font-size: 14px;
+		line-height: 10px;
 	}
 }
 @media (max-width: 320px) {
 	.we-have {
 		display: flex;
 		justify-content: center;
-		padding-bottom: 30px;
+		padding-bottom: 15px;
 	}
 	.we-have__wrapper {
 		width: 280px;
@@ -290,33 +253,5 @@
 	.we-have__cart--link {
 		font-size: 10px;
 		line-height: 14px;
-	}
-
-	.we-have__cart--item-1 {
-		background-image: url(../img/we-have__cart320/vr.jpg);
-		background-size: contain;
-	}
-	.we-have__cart--item-2 {
-		translate: 0px 0px;
-		background-image: url(../img/we-have__cart320/audio.jpg);
-		background-size: contain;
-	}
-
-	.we-have__cart--item-3 {
-		background-image: url(../img/we-have__cart320/karaoke.jpg);
-		background-size: contain;
-	}
-	.we-have__cart--item-4 {
-		background-image: url(../img/we-have__cart320/game.jpg);
-		background-size: contain;
-	}
-	.we-have__cart--item-5 {
-		translate: 0px 0px;
-		background-image: url(../img/we-have__cart320/netflix.jpg);
-		background-size: contain;
-	}
-	.we-have__cart--item-6 {
-		background-image: url(../img/we-have__cart320/sony.jpg);
-		background-size: contain;
 	}
 }
