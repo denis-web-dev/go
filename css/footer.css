@@ -85,3 +85,245 @@ footer {
 .autor-design {
 	margin-bottom: 10px;
 }
+.footer__img-maps {
+	display: none;
+}
+
+/* Адаптив */
+
+@media (max-width: 1024px) {
+	.footer__block {
+		margin-bottom: 92px;
+	}
+
+	.footer__address {
+		display: flex;
+		align-items: center;
+		font-size: 24px;
+		line-height: 28px;
+		font-weight: 700;
+		margin-bottom: 38px;
+	}
+
+	.footer__contacts {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		font-size: 24px;
+		font-weight: 700;
+		margin-bottom: 39px;
+		position: relative;
+	}
+
+	.contacts-svg {
+		width: 26px;
+		height: 26px;
+		margin-right: 13px;
+	}
+
+	.footer__contacts-phone {
+		display: flex;
+		margin-bottom: 11px;
+	}
+
+	.footer__item {
+		margin-right: 26px;
+	}
+
+	.footer__item:last-child {
+		margin-right: 0px;
+	}
+
+	.footer__social-link {
+		display: block;
+		width: 40px;
+		height: 40px;
+		color: #fff;
+		border-radius: 50%;
+		outline-offset: 3px;
+		outline: 1px solid transparent;
+		transition-property: color, outline-color;
+		transition-duration: 0.3s, 0.2s;
+		transition-timing-function: ease-in-out;
+	}
+
+	.footer__img-map {
+		width: 542px;
+		height: 274px;
+	}
+
+	.footer__autor-text {
+		font-size: 14px;
+		line-height: 16px;
+	}
+}
+@media (max-width: 768px) {
+	.footer__title {
+		font-size: 24px;
+		line-height: 36px;
+		margin-bottom: 30px;
+	}
+	.footer__block {
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+		align-items: center;
+
+		margin-bottom: 75px;
+	}
+	.footer-col-1 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-bottom: 30px;
+	}
+
+	.footer__address {
+		display: flex;
+		align-items: center;
+		font-size: 24px;
+		line-height: 28px;
+		font-weight: 700;
+		margin-bottom: 38px;
+	}
+
+	.footer__contacts {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		font-size: 24px;
+		font-weight: 700;
+		margin-bottom: 39px;
+		position: relative;
+	}
+
+	.contacts-svg {
+		width: 26px;
+		height: 26px;
+		margin-right: 13px;
+	}
+
+	.footer__contacts-phone {
+		display: flex;
+		margin-bottom: 11px;
+	}
+
+	.footer__item {
+		margin-right: 26px;
+	}
+
+	.footer__item:last-child {
+		margin-right: 0px;
+	}
+
+	.footer__social-link {
+		display: block;
+		width: 40px;
+		height: 40px;
+		color: #fff;
+		border-radius: 50%;
+		outline-offset: 3px;
+		outline: 1px solid transparent;
+		transition-property: color, outline-color;
+		transition-duration: 0.3s, 0.2s;
+		transition-timing-function: ease-in-out;
+	}
+
+	.footer__img-map {
+		width: 542px;
+		height: 274px;
+	}
+
+	.footer__autor {
+		font-size: 14px;
+		line-height: 16px;
+	}
+}
+
+@media (max-width: 320px) {
+	.footer__title {
+		font-size: 14px;
+		line-height: 18px;
+		margin-bottom: 15px;
+	}
+	.footer__block {
+		margin-bottom: 63px;
+	}
+	.footer-col-1 {
+		margin-bottom: 35px;
+	}
+
+	.footer__address {
+		display: flex;
+		align-items: center;
+		font-size: 14px;
+		line-height: 18px;
+		font-weight: 700;
+		margin-bottom: 10px;
+	}
+
+	.footer__contacts {
+		font-size: 14px;
+		margin-bottom: 10px;
+	}
+
+	.contacts-svg {
+		width: 20px;
+		height: 20px;
+		margin-right: 10px;
+	}
+
+	.footer__contacts-phone {
+		display: flex;
+		margin-bottom: 0;
+	}
+
+	.footer__item {
+		margin-right: 20px;
+	}
+
+	.footer__item:last-child {
+		margin-right: 0px;
+	}
+
+	.footer__social-link {
+		display: block;
+		width: 30px;
+		height: 30px;
+		color: #fff;
+		border-radius: 50%;
+		outline-offset: 3px;
+		outline: 1px solid transparent;
+		transition-property: color, outline-color;
+		transition-duration: 0.3s, 0.2s;
+		transition-timing-function: ease-in-out;
+	}
+
+	.footer__img-map {
+		display: none;
+	}
+	.footer__img-maps {
+		display: block;
+	}
+
+	.footer__autor {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		font-size: 12px;
+		line-height: 16px;
+	}
+
+	.footer__autor-text {
+		margin-bottom: 5px;
+	}
+	.footer__autor-block {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-top: 10px;
+	}
+	.autor-design {
+		margin-bottom: 20px;
+	}
+}
