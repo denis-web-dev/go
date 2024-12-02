@@ -1,13 +1,12 @@
 .about__wrapper {
 	display: flex;
 }
-.about__img {
-	margin-right: 80px;
-}
+
 .about__right-cl {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	padding-left: 80px;
 }
 .about__paragraph {
 	font-size: 20px;
@@ -19,6 +18,9 @@
 .about__paragraph-text:last-child {
 	margin-bottom: 0px;
 }
+.about__block {
+	display: none;
+}
 
 .about__quote {
 	position: relative;
@@ -29,6 +31,7 @@
 	text-transform: uppercase;
 }
 .about__quote-text {
+	max-width: 425px;
 	margin-bottom: 40px;
 	text-transform: uppercase;
 }
@@ -68,4 +71,312 @@
 }
 .about__author-img {
 	margin-right: 30px;
+}
+
+/* Адаптив */
+
+@media (max-width: 1024px) {
+	.title {
+		margin-bottom: 26px;
+	}
+	.about__img {
+		width: 420px;
+		height: 417px;
+	}
+	.about__right-cl {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		padding-left: 40px;
+	}
+	.about__paragraph {
+		font-size: 18px;
+		line-height: 24px;
+		margin-bottom: 26px;
+	}
+	.about__paragraph-text {
+		margin-bottom: 30px;
+	}
+	.about__paragraph-text:last-child {
+		margin-bottom: 0px;
+	}
+
+	.about__quote {
+		position: relative;
+		text-align: left;
+		font-size: 44px;
+		font-weight: 400;
+		padding-left: 25px;
+		text-transform: uppercase;
+	}
+	.about__quote-text {
+		font-size: 30px;
+		line-height: 36px;
+		margin-bottom: 20px;
+		max-width: 380px;
+		text-transform: uppercase;
+	}
+
+	.about__quote::before {
+		content: '';
+		position: absolute;
+		background: url(../img/icons/staple.png);
+		background-repeat: no-repeat;
+		display: inline-block;
+		top: 0;
+		left: 0;
+		width: 15px;
+		height: 36px;
+	}
+	.about__quote::after {
+		content: '';
+		position: absolute;
+		background: url(../img/icons/staple.png);
+		background-repeat: no-repeat;
+		transform: rotate(180deg);
+		display: inline-block;
+		top: 55px;
+		right: 235px;
+
+		width: 15px;
+		height: 36px;
+	}
+	.about__author {
+		padding-right: 50px;
+	}
+	.about__author-img {
+		width: 70px;
+		height: 70px;
+		margin-right: 35px;
+	}
+	.about__author-name {
+		font-size: 18px;
+		line-height: 26px;
+	}
+}
+@media (max-width: 768px) {
+	.title {
+		margin-bottom: 30px;
+	}
+	.about__wrapper {
+		display: flex;
+		align-items: center;
+	}
+	.about__img {
+		width: 382px;
+		height: 380px;
+		margin-bottom: 30px;
+	}
+	.about__right-cl {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		padding-left: 28px;
+	}
+	.about__paragraph {
+		font-size: 16px;
+		line-height: 22px;
+		margin-bottom: 0px;
+	}
+	.about__paragraph-text {
+		max-width: 278px;
+		margin-bottom: 20px;
+	}
+	.about__paragraph-text:last-child {
+		margin-bottom: 0px;
+	}
+
+	.about__quote {
+		display: none;
+	}
+	.about__block {
+		display: block;
+	}
+	.about__quote-1 {
+		position: relative;
+	}
+
+	.about__quote-text {
+		font-size: 30px;
+		line-height: 36px;
+		margin-bottom: 20px;
+		padding-left: 20px;
+		max-width: 550px;
+		text-transform: uppercase;
+	}
+
+	.about__quote-1::before {
+		content: '';
+		position: absolute;
+		background: url(../img/icons/staple.png);
+		background-repeat: no-repeat;
+		display: inline-block;
+		top: 0;
+		left: 0;
+		width: 15px;
+		height: 36px;
+	}
+	.about__quote-1::after {
+		content: '';
+		position: absolute;
+		background: url(../img/icons/staple.png);
+		background-repeat: no-repeat;
+		transform: rotate(180deg);
+		display: inline-block;
+		top: 17px;
+		right: 173px;
+
+		width: 15px;
+		height: 36px;
+	}
+	.about__author {
+		padding-right: 0px;
+	}
+	.about__author-img {
+		width: 70px;
+		height: 70px;
+		margin-right: 35px;
+	}
+	.about__author-name {
+		font-size: 18px;
+		line-height: 26px;
+	}
+}
+@media (max-width: 480px) {
+	.about__wrapper {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+	.title {
+		font-size: 20px;
+		margin-bottom: 30px;
+	}
+	.about-img {
+		margin-right: 0px;
+	}
+	.about__right-cl {
+		padding-left: 0;
+		margin-bottom: 20px;
+	}
+	.about__quote-text {
+		font-size: 20px;
+		line-height: 24px;
+		margin-bottom: 20px;
+		padding-left: 15px;
+		text-transform: uppercase;
+	}
+	.about__paragraph-text {
+		max-width: 278px;
+		margin-bottom: 10px;
+		max-width: 480px;
+	}
+	.about__quote-1::before {
+		content: '';
+		position: absolute;
+		background: url(../img/icons/staple\(480\).png);
+		background-repeat: no-repeat;
+		display: inline-block;
+		top: 0;
+		left: 0;
+		width: 15px;
+		height: 12px;
+	}
+	.about__quote-1::after {
+		content: '';
+		position: absolute;
+		background: url(../img/icons/staple\(480\).png);
+		background-repeat: no-repeat;
+		transform: rotate(180deg);
+		display: inline-block;
+		top: 25px;
+		right: 66px;
+
+		width: 15px;
+		height: 12px;
+	}
+	.about__author-name {
+		font-size: 16px;
+		line-height: 18px;
+	}
+	.about__author-img {
+		width: 60px;
+		height: 60px;
+		margin-right: 15px;
+	}
+}
+@media (max-width: 320px) {
+	.about__wrapper {
+		display: flex;
+		align-items: center;
+		flex-direction: column-reverse;
+	}
+	.title {
+		font-size: 14px;
+		margin-bottom: 15px;
+	}
+	.about-img {
+		width: 280px;
+		height: 280px;
+		margin-right: 0px;
+	}
+	.about__right-cl {
+		padding-left: 0;
+		margin-bottom: 15px;
+	}
+	.about__quote-text {
+		font-size: 18px;
+		line-height: 24px;
+		margin-bottom: 10px;
+		padding-left: 15px;
+		text-transform: uppercase;
+	}
+	.about__paragraph-text {
+		font-size: 12px;
+		line-height: 16px;
+		max-width: 278px;
+		margin-bottom: 10px;
+		max-width: 480px;
+	}
+	.about__quote-1::before {
+		content: '';
+		position: absolute;
+		background: url(../img/icons/staple\(480\).png);
+		background-repeat: no-repeat;
+		display: inline-block;
+		top: 0;
+		left: 0;
+		width: 15px;
+		height: 12px;
+	}
+	.about__quote-1::after {
+		content: '';
+		position: absolute;
+		background: url(../img/icons/staple\(480\).png);
+		background-repeat: no-repeat;
+		transform: rotate(180deg);
+		display: inline-block;
+		top: 51px;
+		right: 117px;
+
+		width: 15px;
+		height: 12px;
+	}
+	.about__author-name {
+		font-size: 16px;
+		line-height: 18px;
+	}
+	.about__author-img {
+		width: 56px;
+		height: 56px;
+		margin-right: 15px;
+	}
+	.about__author-name {
+		font-size: 12px;
+		line-height: 16px;
+	}
+	.about__author {
+		display: flex;
+		justify-content: flex-end;
+	}
 }
