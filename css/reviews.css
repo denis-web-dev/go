@@ -119,6 +119,22 @@
 		line-height: 20px;
 	}
 }
+@media (max-width: 450px) {
+	.reviews__img {
+		width: 76px;
+		height: 76px;
+
+		margin-bottom: 10px;
+	}
+	.reviews__block-img::before {
+		width: 76px;
+		height: 76px;
+	}
+	.reviews__img-3 {
+		width: 76px;
+		height: 76px;
+	}
+}
 @media (max-width: 320px) {
 	.reviews__title {
 		font-size: 14px;
