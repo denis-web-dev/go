@@ -97,14 +97,14 @@
 		margin-right: 15px;
 	}
 	.reviews__img {
-		width: 86px;
-		height: 86px;
+		width: 76px;
+		height: 76px;
 
 		margin-bottom: 10px;
 	}
 	.reviews__block-img::before {
-		width: 86px;
-		height: 86px;
+		width: 76px;
+		height: 76px;
 	}
 	.reviews__block:not(:last-child) {
 		margin-bottom: 30px;
