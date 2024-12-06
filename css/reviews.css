@@ -119,7 +119,7 @@
 		line-height: 20px;
 	}
 }
-@media (max-width: 450px) {
+@media (max-width: 400px) {
 	.reviews__img {
 		width: 76px;
 		height: 76px;
@@ -127,14 +127,16 @@
 		margin-bottom: 10px;
 	}
 	.reviews__block-img::before {
-		width: 76px;
-		height: 76px;
+		display: none;
 	}
-	.reviews__img-3 {
-		width: 76px;
-		height: 76px;
+	.reviews__block-img {
+		width: 75px;
+	}
+	.reviews__text-3 {
+		margin-bottom: 45px;
 	}
 }
+
 @media (max-width: 320px) {
 	.reviews__title {
 		font-size: 14px;

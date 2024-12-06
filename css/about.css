@@ -305,6 +305,18 @@
 		margin-right: 15px;
 	}
 }
+@media (max-width: 400px) {
+	.about__quote-1::after {
+		content: '';
+		position: absolute;
+		transform: rotate(180deg);
+		display: inline-block;
+		top: 25px;
+		right: -12px;
+		width: 15px;
+		height: 12px;
+	}
+}
 @media (max-width: 320px) {
 	.about__wrapper {
 		display: flex;

@@ -211,6 +211,11 @@
 		line-height: 10px;
 	}
 }
+@media (max-width: 400px) {
+	.title {
+		line-height: 22px;
+	}
+}
 @media (max-width: 320px) {
 	.we-have {
 		display: flex;

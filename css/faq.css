@@ -131,6 +131,26 @@
 		background-position: right 18px center;
 	}
 }
+
+@media (max-width: 400px) {
+	.faq__item {
+		font-size: 12px;
+	}
+	.faq__item::after {
+		width: 30px;
+		height: 30px;
+		right: 15px;
+		top: 13px;
+	}
+	.faq__item:nth-of-type(even):hover,
+	.faq__item:nth-of-type(even):active,
+	.faq__item:nth-of-type(odd):hover,
+	.faq__item:nth-of-type(odd):active {
+		background-size: 30px 30px;
+		background-position: right 15px center;
+	}
+}
+
 @media (max-width: 320px) {
 	.faq__title {
 		font-size: 14px;
